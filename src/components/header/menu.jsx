@@ -8,7 +8,7 @@ const MenuEl = [
 const Menu = () => {
   return (
     <div>
-      <ul className="flex gap-6">
+      <ul className="flex gap-6 text-gray-600">
         {MenuEl.map((MenuELObject) => (
           <li>
             <a href={MenuELObject.link}>{MenuELObject.label}</a>
