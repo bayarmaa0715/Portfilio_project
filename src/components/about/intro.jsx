@@ -1,28 +1,52 @@
+import { IoLocation } from "react-icons/io5";
+import { GoDotFill } from "react-icons/go";
+import { LuGithub } from "react-icons/lu";
+import { CiTwitter } from "react-icons/ci";
+import { FaFigma } from "react-icons/fa";
 const Intro = () => {
   return (
-    <div className="flex justify-evenly my-24">
+    <div className=" flex justify-evenly my-24 max-sm:grid max-sm:items-center max-sm:justify-center max-sm:my-8 ">
       <div>
         <div>
-          <h1 className="text-gray-900 text-6xl font-bold mb-2">
-            Hi, I’m Tom 👋
+          <h1 className="text-gray-900 text-6xl font-bold mb-2 ">
+            Hi, I’m Bayarmaa 👋
           </h1>
           <p className="w-[600px] text-gray-600 text-[16px] font-normal mb-12">
             I specialize in full stack development, particularly with React.js
             and Node.js. My main goal is to create exceptional digital
             experiences that are fast, visually appealing, and accessible to
-            everyone. With over 7 years of experience in web development, I
+            everyone. With over 0.2 years of experience in web development, I
             continue to find joy in crafting innovative solutions and designs.
           </p>
         </div>
 
         <div className="mb-12 ">
-          <p>Ulaanaatar,Mongolia</p>
-          <p>Available for new projects</p>
+          <div className="flex gap-2">
+            <span className="text-2xl">
+              <IoLocation />
+            </span>{" "}
+            <p>Ulaanaatar,Mongolia</p>
+          </div>
+          <div className="flex gap-2">
+            <span className="text-2xl text-green-400">
+              <GoDotFill />
+            </span>{" "}
+            <p>Available for new projects</p>
+          </div>
         </div>
-        <div className="">
-          <a href="">G</a>
-          <a href="">X</a>
-          <a href="">F</a>
+        <div className="flex gap-2 text-2xl items-center">
+          <a href="" className="text-2xl">
+            <LuGithub />
+          </a>
+          <a href="" className="text-3xl">
+            <CiTwitter />
+          </a>
+          <a
+            className="text-2xl"
+            href="https://www.figma.com/design/6JvI0EkfFqn1OOJHsqT9k6/Personal-Portfolio-Website?node-id=316-177&t=6WNGZ1gfbuqGgBgI-0"
+          >
+            <FaFigma />
+          </a>
         </div>
       </div>
 

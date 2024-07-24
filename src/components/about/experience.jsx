@@ -1,6 +1,6 @@
 const Experience = () => {
   return (
-    <div className="my-24">
+    <div className="my-24 max-sm:my-12">
       <div className="flex  justify-center items-center">
         <h1 className="text-center mb-4 text-gray-600 bg-gray-200 py-1 px-[20px] rounded-xl">
           Experience
@@ -13,7 +13,7 @@ const Experience = () => {
         </h1>
         <div className="flex gap-12 items-center justify-center ">
           <div className="grid gap-20 ">
-            <div className="flex justify-between w-[832px] border-b-2 border-gray-300 rounded-b-xl p-8 ">
+            <div className="flex justify-between w-[832px] border-b-2 border-gray-300 rounded-b-xl p-8 max-sm:grid max-sm:w-[35rem]">
               <h1 className="text-green-500  font-bold">upWork</h1>
               <div>
                 <h1 className="mb-4 font-bold">Sr. Frontend Developer</h1>
@@ -33,7 +33,7 @@ const Experience = () => {
               <p>Nov 2021 - Present</p>
             </div>
 
-            <div className="flex justify-between w-[832px] border-b-2 border-gray-300 rounded-b-xl p-8 ">
+            <div className="flex justify-between w-[832px] border-b-2 border-gray-300 rounded-b-xl p-8 max-sm:grid max-sm:w-[35rem] ">
               <h1 className="text-green-500  font-bold">upWork</h1>
               <div>
                 <h1 className="mb-4 font-bold">Sr. Frontend Developer</h1>
@@ -53,7 +53,7 @@ const Experience = () => {
               <p>Nov 2021 - Present</p>
             </div>
 
-            <div className="flex justify-between w-[832px]  border-b-2 border-gray-300 rounded-b-xl p-8 ">
+            <div className="flex justify-between w-[832px]  border-b-2 border-gray-300 rounded-b-xl p-8 max-sm:grid max-sm:w-[35rem]">
               <h1 className="text-green-500  font-bold">upWork</h1>
               <div>
                 <h1 className="mb-4 font-bold">Sr. Frontend Developer</h1>

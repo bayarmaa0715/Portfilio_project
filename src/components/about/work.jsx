@@ -1,6 +1,7 @@
+import { CiShare1 } from "react-icons/ci";
 const Work = () => {
   return (
-    <div className="my-24">
+    <div className="my-24 max-sm:my-6">
       <div className="flex  justify-center items-center">
         <h1 className="text-center mb-4 text-gray-600 bg-gray-200 py-1 px-[20px] rounded-xl">
           Work
@@ -13,7 +14,7 @@ const Work = () => {
         </h1>
         <div className="flex gap-12 items-center justify-center ">
           <div className="grid gap-20 ">
-            <div className="flex justify-between w-[1150px] border-b-2 border-gray-300 rounded-b-xl p-8 ">
+            <div className="flex justify-between w-[1150px] border-b-2 border-gray-300 rounded-b-xl p-8 max-sm:grid max-sm:w-[35rem]">
               <div className="w-[480px] h-[384px]">
                 <img src="/images/work1.png" alt="" className="size-full" />
               </div>
@@ -27,7 +28,7 @@ const Work = () => {
                 </p>
                 <div>
                   <ul className="flex gap-3   ">
-                    <li className="text-center mb-4 text-gray-600 bg-gray-200 py-1 px-[20px] rounded-xl">
+                    <li className="text-center mb-4 text-gray-600 bg-gray-200 py-1 px-[20px] rounded-xl ">
                       React
                     </li>
                     <li className="text-center mb-4 text-gray-600 bg-gray-200 py-1 px-[20px] rounded-xl">
@@ -45,11 +46,13 @@ const Work = () => {
                     </p>
                   </ul>
                 </div>
-                <p>share</p>
+                <p className="text-2xl font-bolder">
+                  <CiShare1 />
+                </p>
               </div>
             </div>
 
-            <div className="flex justify-between w-[1150px] border-b-2 border-gray-300 rounded-b-xl p-8 ">
+            <div className="flex justify-between w-[1150px] border-b-2 border-gray-300 rounded-b-xl p-8 max-sm:grid max-sm:w-[35rem]">
               <div className="grid w-[480px] gap-6">
                 <h1 className="font-bold ">Mentorhub</h1>
                 <p className="text-gray-600">
@@ -78,14 +81,16 @@ const Work = () => {
                     </p>
                   </ul>
                 </div>
-                <p>share</p>
+                <p className="text-2xl font-bolder">
+                  <CiShare1 />
+                </p>
               </div>
               <div className="w-[480px] h-[384px]">
                 <img src="/images/work2.png" alt="" className="size-full" />
               </div>
             </div>
 
-            <div className="flex justify-between w-[1150px] border-b-2 border-gray-300 rounded-b-xl p-8 ">
+            <div className="flex justify-between w-[1150px] border-b-2 border-gray-300 rounded-b-xl p-8 max-sm:grid max-sm:w-[35rem] sm:justify-center">
               <div className="w-[480px] h-[384px]">
                 <img
                   src="/images/work3.jpeg"
@@ -121,7 +126,9 @@ const Work = () => {
                     </p>
                   </ul>
                 </div>
-                <p>share</p>
+                <p className="text-2xl font-bolder">
+                  <CiShare1 />
+                </p>
               </div>
             </div>
           </div>
