@@ -6,7 +6,7 @@ import { BsCopy } from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <div className="mt-24 max-sm:my-6 ">
+    <div className="mt-24 max-sm:m-8 ">
       <div className="flex  justify-center items-center">
         <h1 className="text-center mb-4 text-gray-600 bg-gray-200 py-1 px-[20px] rounded-xl">
           Get in touch
@@ -35,10 +35,16 @@ const Contact = () => {
 
           <p>You may also find me on these platforms!</p>
           <div className="flex gap-2 text-2xl items-center justify-center mt-3">
-            <a href="" className="text-2xl">
+            <a
+              href="https://github.com/bayarmaa0715/Portfilio_project"
+              className="text-2xl"
+            >
               <LuGithub />
             </a>
-            <a href="" className="text-3xl">
+            <a
+              href="https://github.com/bayarmaa0715/Portfilio_project"
+              className="text-3xl"
+            >
               <CiTwitter />
             </a>
             <a
@@ -50,7 +56,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <p className="text-center mt-8 text-gray-500 text-sm mb-1">
+      <p className="text-center mt-8 text-gray-500 text-sm mb-1 bg-gray-50 py-2">
         2024 | Greetings with ❤️️ from Ulaanbaatar
       </p>
     </div>

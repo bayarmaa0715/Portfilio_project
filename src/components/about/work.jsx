@@ -90,7 +90,7 @@ const Work = () => {
               </div>
             </div>
 
-            <div className="flex justify-between w-[1150px] border-b-2 border-gray-300 rounded-b-xl p-8 max-sm:grid max-sm:w-[35rem] sm:justify-center">
+            <div className="flex justify-between w-[1150px] border-b-2 border-gray-300 rounded-b-xl p-8 max-sm:grid max-sm:w-[35rem] max-sm:justify-center">
               <div className="w-[480px] h-[384px]">
                 <img
                   src="/images/work3.jpeg"
