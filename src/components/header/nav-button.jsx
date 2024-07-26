@@ -1,36 +1,37 @@
 import { IoSunnyOutline } from "react-icons/io5";
-
 import { FaMoon } from "react-icons/fa";
-import { useState } from "react";
+import { useTheme } from "next-themes";
 
 const NavButton = () => {
-  const [theme, setTheme] = useState(true);
+  const { theme, setTheme } = useTheme();
+
+  console.log("T", theme);
+
   return (
     <div className="flex border-l-2 gap-4 pl-6 items-center">
-      {theme ? (
-        <IoSunnyOutline
-          className="text-2xl hover:cursor-pointer"
+      {theme === "light" ? (
+        <button
           onClick={() => {
-            console.log("light");
-            setTheme(false);
+            setTheme("dark");
           }}
-        />
+        >
+          <IoSunnyOutline className="text-2xl hover:cursor-pointer" />
+        </button>
       ) : (
-        <FaMoon
-          className="text-2xl hover:cursor-pointer"
+        <button
           onClick={() => {
-            console.log("dark");
-            setTheme(true);
-            console.log("setthem n", setTheme(true));
+            setTheme("light");
           }}
-        />
+        >
+          <FaMoon className="text-2xl hover:cursor-pointer" />
+        </button>
       )}
 
       {/* 
       <ModeIcon /> */}
 
       <button
-        className="bg-black text-white rounded-lg  py-[6px] px-4"
+        className="bg-black text-white dark:text-black dark:bg-white rounded-lg  py-[6px] px-4"
         onClick={() => {}}
       >
         Download CV
@@ -40,24 +41,24 @@ const NavButton = () => {
 };
 export default NavButton;
 
-const ModeIcon = () => {
-  // const [theme, setTheme] = useState(true);
-  if (theme) {
-    <IoSunnyOutline
-      className="text-2xl hover:cursor-pointer"
-      onClick={() => {
-        console.log("light");
-        setTheme(false);
-      }}
-    />;
-  } else {
-    <FaMoon
-      className="text-2xl hover:cursor-pointer"
-      onClick={() => {
-        console.log("dark");
-        setTheme(true);
-        console.log("setthem n", setTheme(true));
-      }}
-    />;
-  }
-};
+// const ModeIcon = () => {
+//   // const [theme, setTheme] = useState(true);
+//   if (theme) {
+//     <IoSunnyOutline
+//       className="text-2xl hover:cursor-pointer"
+//       onClick={() => {
+//         console.log("light");
+//         setTheme(false);
+//       }}
+//     />;
+//   } else {
+//     <FaMoon
+//       className="text-2xl hover:cursor-pointer"
+//       onClick={() => {
+//         console.log("dark");
+//         setTheme(true);
+//         console.log("setthem n", setTheme(true));
+//       }}
+//     />;
+//   }
+// };

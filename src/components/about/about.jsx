@@ -4,6 +4,7 @@ import HightIntro from "./hight_intro";
 import Intro from "./intro";
 import Skills from "./skills";
 import Work from "./work";
+
 const About = () => {
   return (
     <div className="">

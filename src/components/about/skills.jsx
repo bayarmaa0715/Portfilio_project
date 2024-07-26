@@ -2,7 +2,7 @@ const Skills = () => {
   return (
     <div className="my-24 max-sm:my-2 ">
       <div className="flex  justify-center items-center">
-        <h1 className="text-center mb-4 text-gray-600 bg-gray-200 py-1 px-[20px] rounded-xl">
+        <h1 className="text-center mb-4 text-gray-600 bg-gray-200 dark:bg-gray-800 dark:text-gray-400 py-1 px-[20px] rounded-xl">
           Skills
         </h1>
       </div>
@@ -12,11 +12,11 @@ const Skills = () => {
           The skills, tools and technologies I am really good at:
         </h1>
         <div className="flex justify-evenly text-center max-sm:grid max-sm:grid-cols-5 max-sm:gap-2 max-sm:justify-center max-sm:items-center">
-          <div className="w-20 h-20">
+          <div className="w-20 h-20 dark:bg-black">
             <img src="/images/js.png" alt="" />
             <h1>Javascript</h1>
           </div>
-          <div className="w-20 h-20">
+          <div className="w-20 h-20 dark:bg-black">
             <img src="/images/ts.png" alt="" />
             <h1>Typescript</h1>
           </div>

@@ -1,4 +1,4 @@
-const MenuEl = [
+const menuEl = [
   { label: "About", link: "https://www.keisukeono.com/" },
   { label: "Work", link: "https://www.keisukeono.com/" },
   { label: "Codes", link: "https://www.keisukeono.com/" },
@@ -8,8 +8,8 @@ const MenuEl = [
 const Menu = () => {
   return (
     <div>
-      <ul className="flex gap-6 text-gray-600">
-        {MenuEl.map((MenuELObject) => (
+      <ul className="flex gap-6 text-gray-600 dark:text-gray-400">
+        {menuEl.map((MenuELObject) => (
           <li>
             <a href={MenuELObject.link}>{MenuELObject.label}</a>
           </li>
