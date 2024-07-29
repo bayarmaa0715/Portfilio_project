@@ -1,45 +1,32 @@
-import { IoSunnyOutline } from "react-icons/io5";
-import { FaMoon } from "react-icons/fa";
 import { useTheme } from "next-themes";
+import { MdOutlineDarkMode, MdOutlineLightMode } from "react-icons/md";
 
-const NavButton = () => {
+const NavSection = () => {
   const { theme, setTheme } = useTheme();
-
-  console.log("T", theme);
-
   return (
-    <div className="flex border-l-2 gap-4 pl-6 items-center">
-      {theme === "light" ? (
-        <button
-          onClick={() => {
-            setTheme("dark");
-          }}
-        >
-          <IoSunnyOutline className="text-2xl hover:cursor-pointer" />
-        </button>
-      ) : (
-        <button
-          onClick={() => {
-            setTheme("light");
-          }}
-        >
-          <FaMoon className="text-2xl hover:cursor-pointer" />
-        </button>
-      )}
-
-      {/* 
-      <ModeIcon /> */}
-
+    <div className="flex items-center gap-3">
       <button
-        className="bg-black text-white dark:text-black dark:bg-white rounded-lg  py-[6px] px-4"
-        onClick={() => {}}
+        onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+        className="p-2 rounded-full focus:outline-none focus:ring-1 focus:ring-gray-500"
+      >
+        {theme === "light" ? (
+          <MdOutlineLightMode className="hover:cursor-pointer text-2xl" />
+        ) : (
+          <MdOutlineDarkMode className="hover:cursor-pointer text-2xl" />
+        )}
+      </button>
+      <button
+        href="/path-to-cv.pdf"
+        download
+        className="px-4 py-2 text-center text-white bg-gray-900 rounded-md dark:bg-white dark:text-gray-900"
       >
         Download CV
       </button>
     </div>
   );
 };
-export default NavButton;
+
+export default NavSection;
 
 // const ModeIcon = () => {
 //   // const [theme, setTheme] = useState(true);
@@ -49,7 +36,7 @@ export default NavButton;
 //       onClick={() => {
 //         console.log("light");
 //         setTheme(false);
-//       }}
+//       }}`
 //     />;
 //   } else {
 //     <FaMoon
@@ -62,3 +49,21 @@ export default NavButton;
 //     />;
 //   }
 // };
+
+// {theme === "light" ? (
+//   <button
+//     onClick={() => {
+//       setTheme("dark");
+//     }}
+//   >
+//     <IoSunnyOutline className="text-2xl hover:cursor-pointer" />
+//   </button>
+// ) : (
+//   <button
+//     onClick={() => {
+//       setTheme("light");
+//     }}
+//   >
+//     <FaMoon className="text-2xl hover:cursor-pointer" />
+//   </button>
+// )}

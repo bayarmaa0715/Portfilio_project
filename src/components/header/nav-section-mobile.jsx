@@ -4,9 +4,9 @@ import { PiDotsThreeOutlineVerticalFill } from "react-icons/pi";
 
 const NavSectionMobile = () => {
   return (
-    <a href="./nav-section" className="max-sm:grid max-[4900px]:hidden">
+    <button className="max-sm:grid max-[4900px]:hidden">
       <PiDotsThreeOutlineVerticalFill />
-    </a>
+    </button>
   );
 };
 export default NavSectionMobile;

@@ -8,8 +8,8 @@ const HightIntro = () => {
       </div>
 
       <div className="flex justify-evenly max-sm:grid max-sm:grid-cols-1 max-sm:items-center max-sm:justify-center  max-sm:gap-24 ">
-        <div className=" w-[400px] h-[480px] relative max-sm:grid max-sm:grid-rows-1 max-sm:justify-center max-sm:items-center max-sm:mx-24 ">
-          <div className="size-full   bg-gray-200  absolute top-10 right-10  dark:bg-gray-800 "></div>
+        <div className=" w-[400px] h-[480px] relative max-sm:grid max-sm:grid-rows-1 max-sm:justify-center max-sm:items-center max-sm:mx-2  max-sm:w-[280] max-sm:h-[360px]  ">
+          <div className="size-full   bg-gray-200  absolute top-10 right-10  dark:bg-gray-800 max-sm:top-2 max-sm:right-1 max-sm:left-1 max-sm:size-full max-sm:w-[280] max-sm:h-[360px] "></div>
           <img
             src="/images/b1.png"
             alt=""

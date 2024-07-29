@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 const Skills = () => {
   return (
     <div className="my-24 max-sm:my-2 ">
@@ -11,11 +13,19 @@ const Skills = () => {
         <h1 className="text-center text-gray-600 mb-16">
           The skills, tools and technologies I am really good at:
         </h1>
-        <div className="flex justify-evenly text-center max-sm:grid max-sm:grid-cols-5 max-sm:gap-2 max-sm:justify-center max-sm:items-center">
+        <motion.div
+          animate={{
+            scale: [1, 2, 2, 1, 1],
+            rotate: [0, 0, 270, 270, 0],
+            borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+          }}
+          className="flex justify-evenly text-center max-sm:grid max-sm:grid-cols-5 max-sm:gap-2 max-sm:justify-center max-sm:items-center"
+        >
           <div className="w-20 h-20 dark:bg-black">
             <img src="/images/js.png" alt="" />
             <h1>Javascript</h1>
           </div>
+
           <div className="w-20 h-20 dark:bg-black">
             <img src="/images/ts.png" alt="" />
             <h1>Typescript</h1>
@@ -32,7 +42,7 @@ const Skills = () => {
             <img src="/images/node.png" alt="" />
             <h1>Node.js</h1>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
