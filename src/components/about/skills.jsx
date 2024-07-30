@@ -19,7 +19,7 @@ const Skills = () => {
             rotate: [0, 0, 270, 270, 0],
             borderRadius: ["20%", "20%", "50%", "50%", "20%"],
           }}
-          className="flex justify-evenly text-center max-sm:grid max-sm:grid-cols-5 max-sm:gap-2 max-sm:justify-center max-sm:items-center"
+          className="flex justify-evenly text-center max-sm:grid max-sm:grid-cols-3 max-sm:gap-8 max-sm:pl-5 max-sm:justify-center max-sm:items-center"
         >
           <div className="w-20 h-20 dark:bg-black">
             <img src="/images/js.png" alt="" />

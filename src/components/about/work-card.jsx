@@ -14,7 +14,7 @@ const WorkCard = ({ workEl, swap }) => {
         <h1 className="font-bold ">{workEl.garchig}</h1>
         <p className="text-gray-600">{workEl.details}</p>
         <div>
-          <ul className="grid grid-cols-4 gap-3  ">
+          <ul className="grid grid-cols-4 gap-3 max-sm:grid-cols-3 ">
             {workEl.skill.map((skillEl) => {
               return (
                 <li className="text-center mb-4 text-gray-600 bg-gray-200 dark:text-gray-400 dark:bg-gray-800  py-1 px-[20px] rounded-xl ">
