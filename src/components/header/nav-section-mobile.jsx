@@ -14,7 +14,7 @@ const MobileMenu = () => {
 
   return (
     <div className="">
-      <button onClick={toggleMenu} className="p-2 text-gray-700 md:hidden ">
+      <button onClick={toggleMenu} className="p-2 text-gray-700 md:hidden">
         <RiMenu3Fill size={24} />
       </button>
       {isOpen && (

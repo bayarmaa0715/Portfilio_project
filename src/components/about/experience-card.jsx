@@ -1,6 +1,6 @@
 const ExperienceCard = ({ experience }) => {
   return (
-    <div className="flex justify-between md:w-[832px] border-b-2 border-gray-300 bg-white rounded-xl md:p-8 max-sm:grid max-sm:p-3 max-sm:m-3">
+    <div className="flex justify-between md:w-[832px] border-b-2 border-gray-300 bg-white rounded-xl md:p-8 max-sm:grid max-sm:p-3 max-sm:m-3 dark:bg-gray-800 dark:border-gray-900">
       <h1 className="text-green-500  font-bold">{experience.companyLogo}</h1>
       <div>
         <h1 className="mb-4 font-bold">{experience.position}</h1>

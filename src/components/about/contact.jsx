@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div className="md:mt-24 max-sm:p-0 max-sm:m-0 ">
       <div className="flex  justify-center items-center">
-        <h1 className="text-center mb-4 text-gray-600 bg-gray-200 py-1 px-[20px] rounded-xl">
+        <h1 className="text-center mb-4 text-gray-600 bg-gray-200 py-1 px-[20px] rounded-xl dark:text-gray-400 dark:bg-gray-800">
           Get in touch
         </h1>
       </div>
@@ -56,7 +56,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <p className="text-center mt-8 text-gray-500 text-sm mb-1 bg-gray-50 md:py-2">
+      <p className="text-center mt-8 text-gray-500 text-sm p-2 bg-gray-50 md:py-2 dark:text-gray-400 dark:bg-gray-800">
         2024 | Greetings with ❤️️ from Ulaanbaatar
       </p>
     </div>
