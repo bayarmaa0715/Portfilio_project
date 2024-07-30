@@ -3,7 +3,7 @@ const HightIntro = () => {
     <div className="py-24 max-sm:py-6 bg-gray-50 dark:bg-gray-900">
       <div className="flex  justify-center items-center">
         <h1 className="text-center mb-12 text-gray-600 bg-gray-200 dark:bg-gray-800 dark:text-gray-400 py-1 px-[20px] rounded-xl">
-          About me 10
+          About me
         </h1>
       </div>
 
