@@ -48,8 +48,8 @@ const Work = () => {
           Some of the noteworthy projects I have built:
         </h1>
         <div className=" grid  gap-12 items-center justify-center ">
-          {worksObject.map((workEl) => (
-            <WorkCard workEl={workEl} />
+          {worksObject.map((workEl, i) => (
+            <WorkCard workEl={workEl} swap={i % 2} />
           ))}
         </div>
       </div>

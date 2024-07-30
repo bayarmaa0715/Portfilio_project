@@ -6,7 +6,7 @@ import { BsCopy } from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <div className="mt-24 max-sm:m-8 ">
+    <div className="md:mt-24 max-sm:p-0 max-sm:m-0 ">
       <div className="flex  justify-center items-center">
         <h1 className="text-center mb-4 text-gray-600 bg-gray-200 py-1 px-[20px] rounded-xl">
           Get in touch
@@ -56,7 +56,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <p className="text-center mt-8 text-gray-500 text-sm mb-1 bg-gray-50 py-2">
+      <p className="text-center mt-8 text-gray-500 text-sm mb-1 bg-gray-50 md:py-2">
         2024 | Greetings with ❤️️ from Ulaanbaatar
       </p>
     </div>

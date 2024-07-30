@@ -4,7 +4,7 @@ import { MdOutlineDarkMode, MdOutlineLightMode } from "react-icons/md";
 const NavSection = () => {
   const { theme, setTheme } = useTheme();
   return (
-    <div className="flex items-center gap-3">
+    <div className="flex items-center gap-3 max-sm:hidden">
       <button
         onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
         className="p-2 rounded-full focus:outline-none focus:ring-1 focus:ring-gray-500"

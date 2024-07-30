@@ -1,6 +1,6 @@
 const HightIntro = () => {
   return (
-    <div className="py-24 max-sm:p-8 bg-gray-50 dark:bg-gray-900">
+    <div className="py-24 max-sm:p-0 bg-gray-50 dark:bg-gray-900">
       <div className="flex  justify-center items-center">
         <h1 className="text-center mb-12 text-gray-600 bg-gray-200 dark:bg-gray-800 dark:text-gray-400 py-1 px-[20px] rounded-xl">
           About me
@@ -9,7 +9,7 @@ const HightIntro = () => {
 
       <div className="flex justify-evenly max-sm:grid max-sm:grid-cols-1 max-sm:items-center max-sm:justify-center  max-sm:gap-24 ">
         <div className=" w-[400px] h-[480px] relative max-sm:grid max-sm:grid-rows-1 max-sm:justify-center max-sm:items-center max-sm:mx-2  max-sm:w-[280] max-sm:h-[360px]  ">
-          <div className="size-full   bg-gray-200  absolute top-10 right-10  dark:bg-gray-800 max-sm:top-2 max-sm:right-1 max-sm:left-1 max-sm:size-full max-sm:w-[280] max-sm:h-[360px] "></div>
+          <div className="size-full   bg-gray-200  absolute md:top-10 md:right-10  dark:bg-gray-800 max-sm:top-2 max-sm:right-1 max-sm:left-1 max-sm:size-full max-sm:w-[280] max-sm:h-[360px] "></div>
           <img
             src="/images/b1.png"
             alt=""
@@ -17,7 +17,7 @@ const HightIntro = () => {
           />
         </div>
 
-        <div className="w-[582px] grid grid-cols-1 gap-4 text-gray-600 dark:text-gray-400 max-sm:w-[90%] ">
+        <div className="md:w-[582px] grid grid-cols-1 gap-4 text-gray-600 dark:text-gray-400 max-sm:m-2 ">
           <h1 className="text-[30px] font-semibold text-black dark:text-white">
             Curious about me? Here you have it:
           </h1>

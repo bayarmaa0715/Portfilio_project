@@ -1,5 +1,5 @@
 import NavSection from "./nav-section";
-import NavSectionMobile from "./nav-section-mobile";
+import MobileMenu from "./nav-section-mobile";
 import { Dancing_Script } from "next/font/google";
 
 const dancingScript = Dancing_Script({ subsets: ["latin"] });
@@ -15,7 +15,6 @@ const Header = () => {
         Bayarmaa
       </h1>
       <NavSection className="" />
-      <NavSectionMobile />
     </header>
   );
 };

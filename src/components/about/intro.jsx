@@ -8,7 +8,7 @@ const Intro = () => {
     <div className="  flex justify-evenly py-20 max-sm:grid max-sm:grid-cols-1 max-sm:items-center max-sm:justify-center max-sm:p-8 max-sm:mb-8">
       <div>
         <div className=" dark:text-white ">
-          <h1 className="text-gray-900 text-6xl font-bold mb-2  dark:text-white ">
+          <h1 className="text-gray-900 text-6xl font-bold mb-2  dark:text-white max-sm:text-3xl ">
             Hi, I’m Bayarmaa 👋
           </h1>
           <p className="w-[600px] text-gray-600  dark:text-gray-400 text-[16px] font-normal pb-12 max-sm:w-[90%]">

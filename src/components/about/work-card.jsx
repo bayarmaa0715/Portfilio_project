@@ -4,13 +4,13 @@ const WorkCard = ({ workEl, swap }) => {
   return (
     <div
       className={`flex ${
-        swap ? "flex-cols-reverse" : ""
-      } justify-between w-[1150px] border-b-2 border-gray-300 rounded-b-xl p-8 max-sm:grid max-sm:w-[35rem]`}
+        swap ? "flex-row-reverse" : ""
+      } justify-between md:w-[1150px] border-b-2 border-gray-300 rounded-b-xl p-8 max-sm:grid max-sm:w- max-sm:p-0  max-sm:m-2`}
     >
-      <div className="w-[480px] h-[384px]">
+      <div className="md:w-[480px] md:h-[384px]">
         <img src="/images/work1.png" alt="" className="size-full" />
       </div>
-      <div className="grid w-[480px] gap-6">
+      <div className="grid md:w-[480px] gap-6">
         <h1 className="font-bold ">{workEl.garchig}</h1>
         <p className="text-gray-600">{workEl.details}</p>
         <div>
