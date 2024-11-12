@@ -5,8 +5,8 @@ const ExperienceCard = ({ experience }) => {
       <div>
         <h1 className="mb-4 font-bold">{experience.position}</h1>
         <ul className="list-disc ml-4 grid gap-1">
-          {experience.lists.map((element) => {
-            return <li>{element}</li>;
+          {experience.lists.map((element, key1) => {
+            return <li key={key1}>{element}</li>;
           })}
         </ul>
       </div>

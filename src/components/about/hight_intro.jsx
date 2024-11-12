@@ -11,7 +11,7 @@ const HightIntro = () => {
         <div className=" md:w-[400px] md:h-[480px] relative max-sm:grid max-sm:grid-rows-1 max-sm:justify-center max-sm:items-center max-sm:mx-1  max-sm:w-[250] max-sm:h-[330px]  ">
           <div className="size-full   bg-gray-200  absolute md:top-10 md:right-10  dark:bg-gray-800 max-sm:top-5 max-sm:right  max-sm:left-10 max-sm:w-[300px] max-sm:h-[350px] "></div>
           <img
-            src="/images/b1.png"
+            src="/images/b1.jpg"
             alt=""
             className="size-full object-cover relative  border-8 border-white dark:border-gray-900 "
           />

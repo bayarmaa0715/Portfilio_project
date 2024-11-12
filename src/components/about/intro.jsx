@@ -59,7 +59,7 @@ const Intro = () => {
       <div className=" w-72 h-80 relative max-sm:grid max-sm:grid-rows-1 max-sm:justify-center max-sm:items-center  max-sm:mx-6">
         <div className="w-[280px] h-[320px] bg-gray-200 absolute md:top-10 md:left-10 max-sm:left- max-sm:top-5 max-sm:right- dark:bg-gray-800 max-sm:w-[290px] max-sm:h-[310px] "></div>
         <img
-          src="/images/b.png"
+          src="/images/b.jpg"
           alt="f "
           className="size-full object-cover relative  border-8 border-white  dark:border-black "
         />
